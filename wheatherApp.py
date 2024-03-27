@@ -3,7 +3,7 @@ import requests
 
 def get_weather(city_name):
   # API key should be kept secure and not shared in public.
-    api_key = 'API_KEY'
+    api_key = '8b45781c5307f5fe1c518c90db55b505'
     base_url = "https://api.openweathermap.org/data/2.5/weather?"
 
     url = f"{base_url}q={city_name}&appid={api_key}&units=metric"
